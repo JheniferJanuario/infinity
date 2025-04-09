@@ -1,0 +1,163 @@
+.explorar-container {
+  font-family: 'Urbanist', sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin-left: 100px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.top-bar nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.top-bar nav a {
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Urbanist', sans-serif;
+  padding-bottom: 4px;
+}
+
+.top-bar nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.2s ease;
+}
+
+.top-bar nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.criar-img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.criar-img:hover {
+  transform: scale(1.05);
+}
+
+.explorar-centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 40px 40px;
+  gap: 80px;
+}
+
+.categorias-coluna {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.explorar-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  min-height: 100vh;
+}
+
+.explorar-botao-central {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.carrinho-img {
+  width: 270px;
+  height: auto;
+  margin-bottom: 15px; 
+}
+
+.botao-img {
+  width: 150px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.botao-img:hover {
+  transform: scale(1.05);
+}
+
+.input-container {
+  position: relative;
+  width: 40%;
+}
+
+.input-container input {
+  width: 40%;
+  padding: 10px 16px 10px 40px; 
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1px; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.user-icon {
+  margin-right: 100px;
+  width: 24px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.user-icon:hover {
+  transform: scale(1.05);
+}

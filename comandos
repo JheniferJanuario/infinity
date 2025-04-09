@@ -1,0 +1,10 @@
+Comandos:
+
+    npx create-react-app [nome do projeto]
+        Para a criação do projeto base
+    
+    npm start
+        Iniciar projeto [lembrar de estar dentro da pasta do projeto!]
+    
+    CTRL + C
+        Parar de rodar o servidor do projeto

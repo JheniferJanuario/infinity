@@ -1,0 +1,19 @@
+body{
+       background-image: linear-gradient(to right, rgba(128, 128, 128, 0.548), white, white);
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Fixa o fundo durante o scroll */
+        background-size: cover; /* Garante que o fundo cubra toda a tela */
+        margin: 0;
+        padding: 0;
+  
+}
+.Background{
+    padding: 2%; 
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+      
+}
+

@@ -1,0 +1,29 @@
+.card-categoria  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-height: 100%;
+  position: absolute;
+}
+
+.card-categoria img {
+  width: 135px;
+  height: auto;
+}
+
+.categorias-mapa {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cat1 { top: 140px; left: 60px; }
+.cat2 { top: 270px; left: 220px; }
+.cat3 { top: 420px; left: 60px; }
+.cat4 { top: 420px; left: 1310px; }
+.cat5 { top: 270px; left: 1150px; }
+.cat6 { top: 140px; left: 1310px; }

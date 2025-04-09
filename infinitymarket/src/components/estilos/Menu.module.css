@@ -1,0 +1,48 @@
+.Container_Maior{
+ display: flex;
+ flex-direction: column;
+ margin-left: 70px;
+ position: absolute; 
+ 
+}
+
+#Container_Menor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    justify-content: space-between; 
+    z-index: 10;
+}
+#Container_Menor:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.199);
+    transform: scale(1);
+    transition: transform 0.3s;
+    cursor: pointer;
+    border: none;
+
+}
+
+#Conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#Container_Menor img{ 
+    width: 24px;
+    height: 24px;
+ 
+}
+
+#Container_Menor, img,  #Text{
+    margin-left: 10px;
+}
+
+#Seta{
+    margin-right: 30px;
+}

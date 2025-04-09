@@ -1,0 +1,69 @@
+.Conteudo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-end;
+}
+.Alinhamento_Card{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+
+}
+
+.Card:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.199);
+    transform: scale(1);
+    transition: transform 0.8s;
+    cursor: pointer;
+    border: none;
+}
+
+.TextCard{
+    margin-right: 100px;
+}
+
+#TextName{
+    font-size: 20px;
+}
+
+#TextDescricao{
+    color: gray;
+}
+
+p + p{
+    margin-top: 25px;
+}
+
+.heart-checkbox {
+    display: none;
+  }
+
+  .heart-label {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url("https://img.icons8.com/ios/50/000000/like--v1.png");
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-left: 260px;
+  
+  }
+
+  .heart-checkbox:checked + .heart-label {
+    background-image: url("https://img.icons8.com/ios-filled/50/fa314a/like.png");
+    transform: scale(1.1);
+  }
